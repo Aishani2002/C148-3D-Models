@@ -1,0 +1,446 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1394,
+      "max": [
+        2.0736870765686035,
+        0.058457653969526291,
+        1.003998875617981
+      ],
+      "min": [
+        -2.0116846561431885,
+        -0.067350976169109344,
+        -0.9978528618812561
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16728,
+      "componentType": 5126,
+      "count": 1394,
+      "max": [
+        0.96333622932434082,
+        1,
+        0.99259769916534424
+      ],
+      "min": [
+        -0.96340656280517578,
+        -1,
+        -0.19762277603149414
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1394,
+      "max": [
+        0.97723245620727539,
+        0.86727064847946167
+      ],
+      "min": [
+        0.024073794484138489,
+        0.19623833894729614
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2160,
+      "max": [
+        1393
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 33456,
+      "componentType": 5126,
+      "count": 164,
+      "max": [
+        2.0888805389404297,
+        0.029693186283111572,
+        0.42796581983566284
+      ],
+      "min": [
+        -2.0881824493408203,
+        -0.029693227261304855,
+        -0.42551702260971069
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 35424,
+      "componentType": 5126,
+      "count": 164,
+      "max": [
+        1,
+        1,
+        0.99913901090621948
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.99913901090621948
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 164,
+      "max": [
+        0.71260780096054077,
+        0.70923721790313721,
+        0.7049751877784729,
+        1
+      ],
+      "min": [
+        -0.71332854032516479,
+        -0.70923459529876709,
+        -0.70156556367874146,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11152,
+      "componentType": 5126,
+      "count": 164,
+      "max": [
+        0.97434300184249878,
+        0.9791063666343689
+      ],
+      "min": [
+        0.020666465163230896,
+        0.047593779861927032
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 8640,
+      "componentType": 5125,
+      "count": 264,
+      "max": [
+        163
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Agustín Hönnun (https://sketchfab.com/Agustin_Honnun)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/handpainted-fence-free-agustin-honnun-9c2fb0b1afaa450f97ac9f6217ed6dc9",
+      "title": "HandPainted Fence [FREE] | Agustin Honnun"
+    },
+    "generator": "Sketchfab-10.23.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9696,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12464,
+      "byteOffset": 9696,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 37392,
+      "byteOffset": 22160,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2624,
+      "byteOffset": 59552,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 62176,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Fence_Color_baseColor.png"
+    },
+    {
+      "uri": "textures/Planks_Color_baseColor.png"
+    },
+    {
+      "uri": "textures/Planks_Color_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Fence_Color",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Planks_Color",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.79461785226522341
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fence_Fence_Color_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Planks_Planks_Color_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.0047619789838790894,
+        0,
+        0,
+        0,
+        0,
+        0.0047619789838790894,
+        0,
+        0,
+        0,
+        0,
+        0.0047619789838790894,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Fence.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        -0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        -0.24015903472900391,
+        99.600112915039062,
+        -0.031486671417951584,
+        1
+      ],
+      "name": "Fence"
+    },
+    {
+      "mesh": 0,
+      "name": "Fence_Fence_Color_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        1.7559051513671875,
+        98.277214050292969,
+        -8.5395965576171875,
+        1
+      ],
+      "name": "Planks"
+    },
+    {
+      "mesh": 1,
+      "name": "Planks_Planks_Color_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
